@@ -24,3 +24,7 @@ rates things with pagerank algorithm, averaging on 0.5 because of reasons
 #### color_palette.js
 
 c64 based color definitions
+
+    > BLUE
+    > '#40318D'
+    >
