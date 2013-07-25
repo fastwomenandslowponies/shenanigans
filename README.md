@@ -22,3 +22,7 @@ rates things with pagerank algorithm, averaging on 0.5 because of reasons
       0.418312340596602,
       0.40389687129012 ]
     >
+    
+#### color_palette.js
+
+c64 based color definitions
