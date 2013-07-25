@@ -5,7 +5,7 @@ var gauss_solve = function(A){
 			if(Math.abs(A[i][k]) > i_max_val) i_max = i, i_max_val = Math.abs(A[i][k]);
 		var k_row = A[k]; A[k] = A[i_max]; A[i_max] = k_row;
 		for(var i = k + 1; i < m; i++){
-			var coeff = (A[i][k]/A[k][k]);
+			var coeff = A[i][k]/A[k][k];
 			for(var j = k; j < n; j++) A[i][j] -= coeff*A[k][j];
 			A[i][k] = 0;
 		}
