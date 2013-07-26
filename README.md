@@ -29,3 +29,10 @@ c64 based color definitions
     > BLUE
     > '#40318D'
     >
+
+
+#### grow_tree.js
+
+grows id3 tree (work in progress)
+
+    > grow_tree(WEATHER, 4);
