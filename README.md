@@ -12,12 +12,13 @@ solves a bunch of linear equations by gaussian elimination
 
 #### iterated_pagerank.js
 
-rates things with pagerank algorithm, averaging on 0.5 because of reasons
+rates things with pagerank algorithm, averaging on 1.0 because of reasons
 
-    > iterated_pagerank([[0, 1, 1], [0, 0, 1], [1, 0, 0]], 0.85, 20);
-    > [ 0.773893916823158,
-      0.418312340596602,
-      0.40389687129012 ]
+    > iterated_pagerank([[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 0], [0, 0, 1, 0]], 0.85, 20);
+    > [ 1.4901259564203877,
+        0.7832552713203319,
+        1.5766187722592795,
+        0.15000000000000002 ]
     >
     
 
