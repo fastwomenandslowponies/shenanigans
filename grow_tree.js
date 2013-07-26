@@ -1,5 +1,5 @@
 var WEATHER = [
-  ['outlook', 'temperature', 'humidity', 'wind', 'play'],
+	['outlook', 'temperature', 'humidity', 'wind', 'play'],
 	['sunny', 'hot', 'high', 'false', 'no'],
 	['sunny', 'hot', 'high', 'true', 'no'],
 	['overcast', 'hot', 'high', 'false', 'yes'],
@@ -48,6 +48,3 @@ var grow_tree = function(data, target){
 		if(r > r_max) i_max = i, r_max = r;
 	}
 };
-
-//grow_tree(WEATHER, 4);
-split_attribute(WEATHER, 0);
